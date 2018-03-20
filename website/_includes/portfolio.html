@@ -1,0 +1,68 @@
+<section id="portfolio" class="portfolio">
+    <script type="text/javascript">
+      function hover(elemID, on){
+        element = document.getElementById(elemID);  
+        if(on){
+          element.style.display='block';
+        }
+        else
+        {
+          element.style.display='none';
+        }
+      }
+      </script>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h2>My Works</h2>
+        <hr class="small">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="portfolio-item" onmousemove="hover('text1',true)" onmouseout="hover('text1',false)">
+              <a href="https://github.com/devFallingstar/Yorimi">
+                <div>
+                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></div>
+                <div>
+                <p id="text1">Yorimi</p></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item" onmousemove="hover('text2',true)" onmouseout="hover('text2',false)">
+              <a href="https://github.com/Ranicorn/MIRO">
+                  <div>
+                      <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></div>
+                      <div>
+                      <p id="text2">Graphics : MIRO</p></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item" onmousemove="hover('text3',true)" onmouseout="hover('text3',false)">
+              <a href="https://github.com/GHHM/elevatorAlgorithm-poke-mon-center">
+                  <div>
+                      <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg"></div>
+                      <div>
+                      <p id="text3">Algorithm: Elevator</p></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6" onmousemove="hover('text4',true)" onmouseout="hover('text4',false)">
+            <div class="portfolio-item">
+              <a href="https://github.com/time-to-catch/TTC">
+                  <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg"></div>
+                  <div>
+                  <p id="text4">Time To Catch</p></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+        <a href="https://github.com/Ranicorn?tab=repositories" class="btn btn-dark">View More Items</a>
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
